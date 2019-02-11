@@ -1,0 +1,57 @@
+/* Hero One
+------------------------------------- */
+
+.hero__one {
+	height: 80vh;
+	width: 100%;
+	position: relative;
+	overflow: hidden;
+}
+.hero__one-overlay {
+	position: absolute;
+	left: 0;
+	top: 0;
+	height: 100%;
+	width: 100%;
+	background: #000000;
+	opacity: .5;
+	z-index: 2;
+}
+.hero__one-image {
+	position: absolute;
+	left: 0;
+	top: 0;
+	height: 100%;
+	width: 100%;
+	background-size: cover;
+	background-position: center;
+	z-index: 1;
+}
+.hero__one .contents {
+  max-width: 50%;
+	position: relative;
+	z-index: 3;
+}
+.hero__one .contents .eyebrow {
+  color: white;
+  padding-bottom: 0.5rem;
+  background: var(--primary);
+  padding: 5px 15px;
+  border-radius: 100pc;
+  font-size: .825rem;
+  display: inline-block;
+  font-weight: 500;
+  margin-bottom: 1rem;
+}
+.hero__one .contents h1 {
+  color: white;
+  display: block;
+  padding-bottom: 1.25rem;
+	font-weight: 600;
+	font-size: 3rem;
+}
+.hero__one .contents .description {
+  color: rgba(255,255,255,.8);
+  font-size: 1.125rem;
+  line-height: 1.65;
+}
